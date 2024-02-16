@@ -1,0 +1,98 @@
+body {
+    background: url('https://i.pinimg.com/originals/b4/9e/0a/b49e0af7674b2fbd5f6a073bb32c9408.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Press Start 2P", system-ui;
+}
+
+#main-square {
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    position: relative;
+}
+
+#hello-message {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#cat-spin-gif {
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#dog {
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#corny {
+    margin-bottom: 10px;
+}
+
+#byte {
+    color: red;
+}
+
+#question {
+    font-size: 30px;
+    color:rgba(235, 103, 146, 1);
+}
+
+.begin-heart {
+    margin-top: 8px;
+    width: 40px;
+}
+
+#yes-button {
+    display: inline-block;
+    margin: 10px;
+    overflow: visible;
+    position: relative;
+    z-index: 2;
+}
+
+#no-button {
+    display: inline-block;
+    margin: 10px;
+}
+
+#yes {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 30px;
+    font-family: "Press Start 2P", system-ui;
+}
+
+#response {
+    display: inline-block;
+}
+
+#no {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 30px;
+    font-family: "Press Start 2P", system-ui;
+}
+
+#start-button {
+    width: 200px;
+    height: 100px;
+    font-size: 20px;
+    font-family: "Press Start 2P", system-ui;
+    background-color: rgba(250, 187, 208, 1);
+    border: 3px solid rgba(235, 103, 146, 1);
+    border-radius: 7px;
+}
